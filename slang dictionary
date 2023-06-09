@@ -1,0 +1,15 @@
+meme_dict = {
+            "IYKYK": "Stands for 'if you know, you know'",
+            "LIT": "Something awesome or exciting",
+            "NO CAP": "Someone is not lying / is saying the truth",
+            "LOL": "Stands for 'laughing out loud'"
+            }
+            
+
+
+for i in range(5):
+    word = input("Write the word you want defined (use all capital letters):")
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("Sorry, that word isn't currently available. Please pick a different word!")
