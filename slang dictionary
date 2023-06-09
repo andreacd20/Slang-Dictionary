@@ -8,7 +8,7 @@ meme_dict = {
 
 
 for i in range(5):
-    word = input("Write the word you want defined (use all capital letters):")
+    word = input("Write a slang word you want defined (use all capital letters):")
     if word in meme_dict.keys():
         print(meme_dict[word])
     else:
